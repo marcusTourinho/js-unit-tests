@@ -19,6 +19,6 @@ describe('2 - Implemente os casos de teste para a função `numbers`', () => {
     expect(numbers([1, 2, 3, 4, 5])).toBe(true);
     expect(numbers([1, 2, '3', 4, 5])).toBe(false);
     expect(numbers([1, 'a', 3])).toBe(false);
-    expect(numbers([' '])).toBe(false);
+    expect(numbers([' '])).toBe(false);""
   });
 });
