@@ -12,7 +12,7 @@ const createMenu = (object) => {
       consumption.push(string);
     }
     return 'Item indisponível';
-  }
+  };
   const pay = () => {
     let tip = 0;
     for (let key of consumption) {
@@ -24,8 +24,8 @@ const createMenu = (object) => {
       }
     }
     return tip * 1.1;
-  }
-  return {fetchMenu, consumption, order, pay};
+  };
+  return { fetchMenu, consumption, order, pay };
 };
 
 module.exports = createMenu;
